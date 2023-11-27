@@ -1,8 +1,6 @@
 # gcam-useful-tricks
 
-ATTENTION: WORK IN PROGRESS
-
-
+This repository aims to gather different information regarding GCAM management. If you think that the community could benefit from further information or that some information must be updated, feel free to do it yourself or let us know so we can include it!! :)
 
 <!-- ------------------------>
 
@@ -14,11 +12,11 @@ ATTENTION: WORK IN PROGRESS
 
 <!-- ------------------------>
 
-- [gcam-useful-tricks](#gcam-useful-tricks)
-  - [Contents](#contents)
   - [How to run GCAM in debug mode](#how-to-run-gcam-in-debug-mode)
+    - [Description](#debug-description)
+    - [Guide](#debug-guide)
   - [How to run GCAM saving only some queries](#how-to-run-gcam-saving-only-some-queries)
-    - [Description](#savingQueries-description-descriptionription)
+    - [Description](#savingQueries-description)
     - [Guide](#savingQueries-guide)
   - [How to run GCAM in parallel in a standard computer](#how-to-run-gcam-in-parallel-in-a-standard-computer)
     - [Description](#parallel-description)
