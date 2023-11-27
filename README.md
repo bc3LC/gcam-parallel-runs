@@ -28,6 +28,12 @@ This repository aims to gather different information regarding GCAM management. 
 
 ## <a name="how-to-run-gcam-in-debug-mode"></a>How to run GCAM in debug mode
 
+<!-- ------------------------>
+
+<!-- ------------------------>
+
+[Back to Contents](#contents)
+
 ### <a name="debug-description"></a>Description
 
 With this procedure you can run GCAM in debug mode. GCAM will stop when finding an `ERROR` and it will prompt the c++ line that launched the exception.
@@ -50,11 +56,6 @@ To solve it,
 - In the error window, click *Open Exception Settings*, expand Win32 Exceptions, find the number from the error message ("0xC0000005" in this case), and uncheck the exception associated with this number
 - Relaunch the debug run (point 4)
 
-<!-- ------------------------>
-
-<!-- ------------------------>
-
-[Back to Contents](#contents)
 
 <!-- ------------------------>
 
