@@ -42,10 +42,13 @@ With this procedure you can run GCAM in debug mode. GCAM will stop when finding 
 
 To run GCAM in debug mode, follow the next steps:
 
-1. Open VS project file: `cvs\objects\build\vc10\objects.vcxproj`
-2. Right click GCAM project (objects-main) and click *Properties*
-3. under +Configuration Properties*, select *Debugging* and edit the *Working Directory* variable value to the path to your `exe` folder. Click `apply`.
-4. From the menu bar, click *Debug* > *Start debugging*
+1. Set `jvm.dll` as system environmental variable
+2. Open VS project file: `cvs\objects\build\vc10\objects.vcxproj`
+3. Right click GCAM project (objects-main) and click *Properties*
+4. under *Configuration Properties*, select *Debugging* and edit the *Working Directory* variable value to the path to your `exe` folder. Click `apply`.
+5. From the menu bar, click *Debug* > *Start debugging* (considering the *Release* version)
+
+Notice: if you change something from the c++ code, retarget and rebuild the solution before re-debugging again.
 
 Notice: you may get a Java curveball that says something like:
 ```
@@ -55,7 +58,6 @@ To solve it,
 - Take note of the number after *gcam.exe* ("0xC0000005" in this case)
 - In the error window, click *Open Exception Settings*, expand Win32 Exceptions, find the number from the error message ("0xC0000005" in this case), and uncheck the exception associated with this number
 - Relaunch the debug run (point 4)
-
 
 <!-- ------------------------>
 
